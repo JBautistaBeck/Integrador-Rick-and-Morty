@@ -1,0 +1,26 @@
+.detailContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    border: solid 1px #2fd412;
+    margin: 20px;
+    max-height: 400px;
+    padding: 15px;
+    border-radius: 6px;
+    color: #2fd412;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.details div {
+    display: flex;
+    align-items: center;
+    
+    
+}

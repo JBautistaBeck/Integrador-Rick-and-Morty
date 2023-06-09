@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid #2fd412 1px;
+    padding: 30px;
+    color: #2fd412;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    margin-bottom: 10px;
+}
+
+.credentials {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.credentials input:focus {
+    outline: none;
+}
+
+.credentials span {
+    color: red;
+}
+
+.submitButton {
+    position: relative;
+    left: 0px;
+    border-radius: 5px;
+    border: solid #2fd412 1px;
+    background: rgb(10, 9, 9);
+    color: #2fd412;
+    font-size: 15px;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 50px;
+    min-height: 50px;
+    margin-top: 23px;
+}
+
+.submitButton:hover {
+    box-shadow: inset 0 0 10px #2fd412;
+    font-size: 20px;
+}

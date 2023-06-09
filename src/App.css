@@ -1,0 +1,13 @@
+.App {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /*background-image: url('./assets/fondo.jpeg');
+   background-position: 10vw ;*/
+}
+
+.title {
+   margin-top: 15px;
+   margin-bottom: 10px;
+   height: 150px;
+}

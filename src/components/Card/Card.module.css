@@ -1,0 +1,58 @@
+.cardPrincipal {
+    display: flex;
+    height: 50s0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 255, 49);
+    background-image: url('../../../public/portal.png') ;
+    background-position: center;
+    width: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    /*-moz-osx-font-smoothing: grayscale; 
+    backface-visibility: hidden;
+    transform: translate(0);
+    transition: transform 0.25s ease-out;*/
+}
+
+.cardPrincipal:hover {
+    transform: scale(1.05);
+}
+
+.caracteristicas {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-size: small;
+    /*font-family: ;*/
+}
+
+.cerrarBoton {
+    opacity: 0.7;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.cerrarBoton:hover {
+    background-color: red;
+    color: white;
+}
+
+.imgContenedor {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

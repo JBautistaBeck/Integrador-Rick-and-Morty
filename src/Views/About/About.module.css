@@ -1,0 +1,15 @@
+.butonsContainer button {
+    position: relative;
+    left: 0px;
+    border-radius: 10px;
+    border: solid #2fd412 1px;
+    background: rgb(10, 9, 9);
+    color: #39ff14;
+    font-size: 20px;
+    max-width: 200px;
+    min-width: 150px;
+    max-height: 45px;
+    min-height: 45px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
