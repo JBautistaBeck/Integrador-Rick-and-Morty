@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./About.module.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
     return(
@@ -12,15 +14,15 @@ const About = () => {
             <p>Profesion: Estudiante de Henry</p>
             <div className={style.butonsContainer}>
                 <button>
-                <Link to="https://www.instagram.com/bautista.beck/">Instagram</Link>
+                <Link to="https://www.instagram.com/bautista.beck/"><FontAwesomeIcon icon={faInstagram} /></Link>
                 </button>
 
                 <button>
-                <Link to="https://www.linkedin.com/in/juan-bautista-mar%C3%ADa-beck-06a40026a/">Linkedin</Link>
+                <Link to="https://www.linkedin.com/in/juan-bautista-mar%C3%ADa-beck-06a40026a/"><FontAwesomeIcon icon={faLinkedin} /></Link>
                 </button>
 
                 <button>
-                <Link to="https://github.com/JBautistaBeck">GitHub</Link>
+                <Link to="https://github.com/JBautistaBeck"><FontAwesomeIcon icon={faGithub} /></Link>
                 </button>
             </div>
 

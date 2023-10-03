@@ -60,9 +60,12 @@ function App() {
 
 
 
+
+
    useEffect(() => {
       !access && navigate('/');
    }, [access]);
+
 
 
 
@@ -82,11 +85,19 @@ function App() {
       }
    }
 
+
+
+
+
    const closeHandler = (id) => {
       let deleted = characters.filter((character) => character.id !== Number(id))
 
       setCharacters(deleted)
    }
+
+
+
+
 
 
    const randomHandler = () => {
@@ -109,7 +120,9 @@ function App() {
       } else {
         console.log("Ya agregaste todos los personajes");
         return false;
-      }}
+   }}
+
+
 
 
 
@@ -131,7 +144,7 @@ function App() {
          <Route path="*" element={<ErrorPage/>}></Route>
          
       </Routes>
-
+ 
       </div>
 
    );
